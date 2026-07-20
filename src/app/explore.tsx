@@ -118,6 +118,7 @@ export default function TabTwoScreen() {
               animate opening this hint.
             </ThemedText>
           </Collapsible>
+          
         </ThemedView>
         {Platform.OS === 'web' && <WebBadge />}
       </ThemedView>
@@ -132,6 +133,7 @@ const styles = StyleSheet.create({
   contentContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
+//    backgroundColor: 'hsl(0, 0%, 100%)',
   },
   container: {
     maxWidth: MaxContentWidth,
